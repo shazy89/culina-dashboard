@@ -31,3 +31,4 @@ By using the Dashboard link users can get info about the app (Clients, Users, Pr
 - AJAX
 - Cloudinary
 - Formik & Yup
+- Netlify
