@@ -1,0 +1,10 @@
+.user__profile {
+    &-box {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-edit {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}

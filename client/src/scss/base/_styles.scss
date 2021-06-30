@@ -1,0 +1,21 @@
+.form__button {
+    &-shadow {
+        
+    }
+}
+.culina--link {
+ &:link,  &:visited {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.726);
+ }
+ &:hover,&:active {
+    text-decoration: none !important;
+ } 
+
+}
+.child {
+    &__left {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

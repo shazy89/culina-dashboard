@@ -1,0 +1,133 @@
+.culina__auth {
+    &--card {
+        height: 70%;
+        width: 45rem;
+        background-color: rgba($color-light-grey, 0.8);
+        @include absCenter;
+        font-family: "Lato-Italic";
+        box-shadow: 7px 6px 35px 6px rgba(78, 78, 78, 0.877);
+        border-radius: 1rem;
+    }
+    &--header-div {
+        margin-top: 4rem;
+        text-align: center;
+    }
+    &--header {
+        font-size: 4rem;
+    }
+    &--form {
+
+       button {
+           display: block !important;
+           width: 50%;
+           margin: 0 auto;
+
+       }
+        &-group {
+            margin: 3rem;
+        }
+        &-input {
+     
+            width: 100%;
+            display: block;
+
+            height: 5rem;
+            border: none;
+            border-bottom: 3px solid transparent;
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+            font-size: 1.5rem;
+            transition: all 0.4s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+            &:focus {
+                outline: none;
+                box-shadow: 0 1rem 2rem rgba(green, 0.1);
+                border-bottom: 3px solid green;
+            }
+
+            &:focus:invalid {
+                border-bottom: 3px solid green;
+            }
+
+            &::-webkit-input-placeholder {
+                color: rgb(179, 179, 179);
+            }
+        }
+        &-label {
+            font-size: 1.3rem;
+        }
+    }
+}
+.card__text {
+    text-align: center;
+    background-image: linear-gradient(to left bottom, #f1f1f1, #fde3e3);
+    height: 100%;
+    box-shadow: 0 .5rem 1rem rgba(black, .4);
+    transition: all .3s;
+}
+.card__link {
+
+    &:link,
+    &:visited {
+        display: inline-block;
+        border: none;
+        background: none;
+        text-decoration: none;
+        color: black;
+        outline: none;
+        transition: all 0.3s;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        width: 30%;
+        min-height: 10rem;
+    }
+ 
+  
+    &:hover,
+    &:active {
+     
+        box-shadow: 0 1rem 2rem rgba(black, .4);
+        transform: rotate(1deg) ske(1.1);
+   
+      }
+}
+.flex__container {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+.user {
+    &__personal {
+        width: 100%;
+    }
+    &__shadow {
+        box-shadow: 3px 5px 13px rgba(105, 105, 105, 0.493);
+    }
+    &__image {
+        width: 12rem;
+        height: 13rem;
+        border-radius: 50%;
+        background: white;
+    }
+    &__card {
+        &-box {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        &-header {
+            align-self: center;
+        }
+        &-position {
+            color: rgba(146, 140, 140, 0.87);
+        }
+        &-text {
+            padding: 1rem;
+            width: 95%;
+        }
+    }
+    
+}

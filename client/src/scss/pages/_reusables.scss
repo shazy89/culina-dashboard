@@ -1,0 +1,14 @@
+.culina {
+
+    &__spinner {
+        position: relative;
+        height: 90vh;
+    }
+    &__image {
+        width: 10vw;
+       
+    }
+    &__center {
+        @include absCenter;
+    }
+}
