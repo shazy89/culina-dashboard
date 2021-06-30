@@ -15,8 +15,6 @@ By using the Dashboard link users can get info about the app (Clients, Users, Pr
 | :---------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: |
 | ![](https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_706/v1625073663/projects/Screen_Shot_2021-06-30_at_7.16.12_PM_gau5er.png) | ![](https://res.cloudinary.com/dytheecsk/image/upload/c_scale,w_800/v1625073666/projects/Screen_Shot_2021-06-30_at_7.16.26_PM_nxervm.png) |
 
-# Prerequisites
-
 ## Backend
 
 - Express Js
